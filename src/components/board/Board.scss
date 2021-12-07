@@ -1,0 +1,28 @@
+.board {
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+  box-shadow: 2px 4px 8px gray;
+
+}
+.numbers {
+  padding: 32px 0 0 12px;
+  position: absolute;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.letters {
+  position: absolute;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  top: 440px;
+  left: 30px;
+  color: black;
+}
